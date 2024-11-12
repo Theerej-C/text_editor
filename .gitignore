@@ -1,0 +1,61 @@
+# Ignore build directory
+/build/
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeOutput.log
+CMakeError.log
+
+# Ignore compiled object files and executables
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Ignore dependency files
+*.d
+
+# Ignore IDE specific files
+# Visual Studio
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.user
+
+# Code::Blocks
+*.cbp
+*.layout
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# Eclipse
+.project
+.cproject
+
+# CLion
+.idea/
+*.iml
+
+# Ignore temporary files
+*~
+*.tmp
+*.temp
+*.log
+
+# Ignore backup files
+*.bak
+*.swp
+*.swm
+
+# Ignore other files
+*.DS_Store  # macOS
+Thumbs.db    # Windows
